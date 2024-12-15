@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: var(--base-font-weight);
+    font-family: var(--base-font-family);
+    line-height: var(--base-line-height);
+    color: var(--base-text-color);
+}
