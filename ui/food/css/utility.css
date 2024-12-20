@@ -1,0 +1,65 @@
+.container {
+    padding: 0 3.2rem;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.grid {
+    display: grid;
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+}
+
+.grid:not(:last-child) {
+    margin-bottom: 9.6rem;
+}
+
+.grid-center-veritcal {
+    align-items: center;
+}
+
+.grid-2-col {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3-col {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4-col {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-5-col {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.mr-sm {
+    /* Overrides previous styling */
+    margin-right: 1.6rem !important;
+}
+
+.mb-md {
+    margin-bottom: 4.8rem !important;
+}
+
+strong {
+    font-weight: var(--base-font-weight-medium);
+}
+
+.center-text {
+    text-align: center;
+}

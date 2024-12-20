@@ -1,6 +1,23 @@
 :root {
     --base-font-weight: 400;
-    --base-font-family: sans-serif;
+    --base-font-family: "Rubik", sans-serif;;
     --base-line-height: 1;
     --base-text-color: #555;
+    --base-text-color-darker: #333;
+    --base-text-color-lighter: #6f6f6f;
+    --base-white-color: #fff;
+    --base-white-color-darker: #fdf2e9;
+    --base-primary-color: #d51965;
+    --base-primary-color-shade: #2b0514;
+    --base-primary-color-transparent: rgb(213, 25, 101, 0.15);
+    --base-primary-color-darker: #c0175b;
+    --base-tints-color: #fbe8f0;
+    --base-tints-color-darker: #eea3c1;
+    --base-tints-color-darker-transparent: rgba(238, 163, 193, 0.15);
+    --base-font-weight-default: 400;
+    --base-font-weight-medium: 500;
+    --base-font-weight-semi-bold: 600;
+    --base-font-weight-bold: 700;
+
+    --primary-heading-text-color: #333;
 }
