@@ -12,6 +12,23 @@
     height: 3.2rem;
 }
 
+.sticky .header {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 8rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: var(--base-primary-color-transparent);
+    z-index: 999;
+    box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.06);
+}
+
+.sticky .hero-section {
+    margin-top: 9.6rem;
+}
+
 /* NAV */
 .header-nav-list {
     list-style: none;
@@ -133,7 +150,7 @@
 }
 
 .hero-image {
-    width: 100%;
+    width: 90%;
 }
 
 .hero-description {
